@@ -148,7 +148,10 @@ strong,.strong{font-weight:bold !important}
 a{text-decoration:none;color:#3f8dcd;}
 a:hover{text-decoration:none;}
 
+pre{padding:20px;background:#f9f9f9;}
+/*************************general***************************/
 
+/***************************grid****************************/
 .col-10{ float:left;width:10%;}
 .col-20{ float:left;width:20%;}
 .col-30{ float:left;width:30%;}
@@ -207,28 +210,15 @@ a:hover{text-decoration:none;}
     -moz-box-shadow:4px 3px 5px 0px rgba(0, 0, 0, 0.03);
   box-shadow:4px 3px 5px 0px rgba(0, 0, 0, 0.03);
 }
+/***************************grid****************************/
 
-pre{
-  padding:20px;
-  background:#f9f9f9;
-}
-
-
-
-
-
-
-
-
-
-
-/***************************notification***************************/
+/************************notification***********************/
 .notification.primary{text-indent:30px;border-radius:3px;margin-bottom:5px;padding:15px;border-left:solid 6px #2980b9;background: #ecf0f1}
 .notification.success{text-indent:30px;border-radius:3px;margin-bottom:5px;padding:15px;border-left:solid 6px #1abc9c;background: #ecf0f1}
 .notification.danger {text-indent:30px;border-radius:3px;margin-bottom:5px;padding:15px;border-left:solid 6px #e74c3c;background: #ecf0f1}
 .notification.info   {text-indent:30px;border-radius:3px;margin-bottom:5px;padding:15px;border-left:solid 6px #f1c40f;background: #ecf0f1}
 .notification.warning{text-indent:30px;border-radius:3px;margin-bottom:5px;padding:15px;border-left:solid 6px #f39c12;background: #ecf0f1}
-
+/************************notification***********************/
 
 /***************************table***************************/
 table.table{
@@ -265,13 +255,7 @@ table.table td{cursor:pointer;}
 table.table td:focus{background:#ccc;}
 /***************************table***************************/
 
-
-
-
-
-
-
-/***************************table*2***************************/
+/**************************table*2**************************/
 table.primary{
   box-sizing: border-box;
   width: 100%;
@@ -308,15 +292,7 @@ table.primary td:focus{background:#ccc;}
 }
 /***************************table***************************/
 
-
-
-
-
-
-
-
-
-/***************************loading***************************/
+/**************************loading**************************/
 .spinner.loading {
   padding: 50px;
   position: relative;
@@ -346,7 +322,7 @@ table.primary td:focus{background:#ccc;}
 }
 /***************************table***************************/
 
-/***************************button***************************/
+/**************************button***************************/
 .btn{
   cursor:pointer;
   display: inline-block;
@@ -390,7 +366,6 @@ table.primary td:focus{background:#ccc;}
   font-size:16px;
   font-weight:bold;
 }
-
 .btn:hover{
   	opacity: .8;
 }
@@ -462,7 +437,6 @@ input[type=text],input[type=password],select {
   -o-width:calc(100% - 40px) !important;
   border-radius: 0px 3px 3px 0px !important;
 }
-
 input:focus {
   border-color: #55afe8 !important;
   outline: 0;
@@ -547,8 +521,8 @@ label input[type="checkbox"]:checked + .label-text {
 label input[type="checkbox"]:checked + .label-text:before {
   content: "";
   color: #2980b9;
-  -webkit-animation-name: example; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 180ms; /* Chrome, Safari, Opera */
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 180ms;
   animation-name: example;
   animation-duration: 180ms;
 }
@@ -559,13 +533,11 @@ label input[type="checkbox"]:disabled + .label-text:before {
   content: "";
   color: #ccc;
 }
-/* Chrome, Safari, Opera */
 @-webkit-keyframes example {
     0%   {transform: scale(0);}
     90%  {transform: scale(1.6);}
     100% {transform: scale(1);}
 }
-/* Standard syntax */
 @keyframes example {
     0%   {transform: scale(0);}
     90%  {transform: scale(1.6);}
@@ -599,8 +571,8 @@ label input[type="radio"]:checked + .label-text {
 label input[type="radio"]:checked + .label-text:before {
   content: "\f05d";
   color: #2980b9;
-  -webkit-animation-name: radio; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 180ms; /* Chrome, Safari, Opera */
+  -webkit-animation-name: radio;
+  -webkit-animation-duration: 180ms;
   animation-name: radio;
   animation-duration: 180ms;
 }
@@ -611,13 +583,11 @@ label input[type="radio"]:disabled + .label-text:before {
   content: "\f111";
   color: #ccc;
 }
-/* Chrome, Safari, Opera */
 @-webkit-keyframes radio {
     0%   {transform: scale(0);}
     90%  {transform: scale(1.6);}
     100% {transform: scale(1);}
 }
-/* Standard syntax */
 @keyframes radio {
     0%   {transform: scale(0);}
     90%  {transform: scale(1.6);}
